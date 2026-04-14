@@ -14,6 +14,6 @@ const isLogin = computed(() => route.name === 'login')
     <AppSidebar v-if="!isLogin" />
     <AppTopBar v-if="!isLogin" />
     <RouterView />
-    <AppFooter v-if="isLogin" />
+    <AppFooter />
   </v-app>
 </template>
