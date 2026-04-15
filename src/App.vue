@@ -1,9 +1,9 @@
 <script setup>
 import { RouterView, useRoute } from 'vue-router'
 import { computed } from 'vue'
-import AppFooter from '@/components/AppFooter.vue'
-import AppSidebar from '@/components/AppSidebar.vue'
-import AppTopBar from '@/components/AppTopBar.vue'
+import AppFooter from '@/components/global/AppFooter.vue'
+import AppSidebar from '@/components/global/AppSidebar.vue'
+import AppTopBar from '@/components/global/AppTopBar.vue'
 
 const route = useRoute()
 const isLogin = computed(() => route.name === 'login')

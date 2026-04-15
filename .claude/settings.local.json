@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/global c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/tables c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/inventory c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/products c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/settings c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/users c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/cashier)",
+      "Bash(mv c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/Sidebar.vue c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/global/)",
+      "Bash(mv c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/AppSidebar.vue c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/global/)",
+      "Bash(mv c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/TopBar.vue c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/global/)",
+      "Bash(mv c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/AppTopBar.vue c:/Users/fabia/OneDrive/Documentos/NexOrderPro/src/components/global/)",
+      "Bash(timeout 15 npm run dev)"
+    ]
+  }
+}
